@@ -7,21 +7,16 @@ body{
 background:#FFFFFF url(http://www.freebiesgallery.com/wp-content/uploads/2012/08/dark-website-backgrounds-5.jpg) center center fixed no-repeat;
 background-size:cover;
 }
-h2 {
-font-size : 26px;
-margin-left : 5em;
-margin-bottom : 0em;
+.head {
+padding-left:12px;
+font-weight:bold;
+font-size:26px;
 }
-p {
-margin-top : 0.01em;
-font-size : 18px;
+.text {
+padding-left:32px;
+display:block;
+margin: auto;
 }
-ul {
-text-align : left;
-margin-left : 5em;
+table {
+margin:auto;
 }
-img {
-margin-left: 2em;
-margin-right: 2em;
-}
-
