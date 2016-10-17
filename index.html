@@ -4,19 +4,33 @@
 <meta charset="utf-8">
 <title>Web Design Pratice</title>
 <link rel="stylesheet" type="text/css" href="app.css">
+<script src="jq.js" type="text/javascript"o></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+  $(document).ready(function(){
+    $(".text").slideUp();
+    $(".about").mouseover(function(){
+      $(".text").slideDown();
+    });
+    $(".about").mouseout(function(){
+      $(".text").slideUp();
+    });
+  });
+</script>
 </head>
 <body>
 <h1 align="center"><font color=#FFFFFF>Hi my name is Sam.</font></h1>
-<table>
-  <tr>
-    <td rowspan="5"><img src="https://goo.gl/FJEf1Z" width="480" height="480"></td>
-    <td class="head"><b>About me:</b></td>
-  </tr>
-  <tr><td class="text"><span>Name:</span>陳俊瑋</td></tr>
-  <tr><td class="text"><span>Birthday:</span>1997/2/28</td></tr>
-  <tr><td class="text">I'm studying Electrical Engineering in NCKU</td></tr>
-  <tr><td><br><br><br><br><br><br><br><br><br><br><br><br><br></td></tr>
-</table>
+<p>
+  <img src="https://goo.gl/FJEf1Z" width="480" height="480"></td>
+  <div id="div">
+   <span class="about"><b>About⯈</b></span><br>
+   <span class="text">
+   Name : 陳俊瑋<br>
+   Birthday : 1997/2/28<br>
+   I'm studying Electrical Engineering in NCKU.
+   </span>
+  </div>
+</p>
 <a>link</a>
 </body>
 </html>

@@ -1,0 +1,9 @@
+$docment.(function(){
+  $(".text").slideUp();
+  $(".haed").mouseover(function(){
+    $(".text").slideDown();
+  });
+  $(".haed").mouseout(function(){
+    $(".text").slideUp();
+  });
+});
