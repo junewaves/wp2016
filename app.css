@@ -19,6 +19,11 @@ img {
 float:left;
 }
 p {
-max-width:950px;
+display:block;
+max-width:920px;
 margin:auto;
+}
+.link {
+position:fixed;
+bottom:0em;
 }

@@ -9,12 +9,20 @@
 <script>
   $(document).ready(function(){
     $(".text").slideUp();
+    $(".links").slideUp();
     $(".about").mouseover(function(){
       $(".text").slideDown();
     });
     $(".about").mouseout(function(){
       $(".text").slideUp();
     });
+    $(".lh").mouseover(function(){
+      $(".links".slideDown();
+    });
+    $(".lh").mouseout(function(){
+      $(".links").slideUp();
+    });
+
   });
 </script>
 </head>
@@ -31,6 +39,14 @@
    </span>
   </div>
 </p>
-<a>link</a>
+<br>
+<div class ="link">
+<span class="lh">=Links=</span>
+<p class="links">
+<a>link1</a>
+<br>
+<a>link2</a>
+</p>
+</div>
 </body>
 </html>
