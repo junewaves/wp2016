@@ -1,9 +1,10 @@
-$docment.(function(){
+
+$(document).ready(function(){
   $(".text").slideUp();
-  $(".haed").mouseover(function(){
+  $(".about").mouseover(function(){
     $(".text").slideDown();
   });
-  $(".haed").mouseout(function(){
-    $(".text").slideUp();
+  $(".about").mouseout(function(){
+   $(".text").slideUp();
   });
 });
